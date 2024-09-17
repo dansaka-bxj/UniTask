@@ -1,3 +1,17 @@
+# UniTask
+[UniTask](https://github.com/Cysharp/UniTask)をフォークし、アナライザの CancellationToken 渡し漏れをエラーから警告にさげただけのものです。
+
+## ビルド方法
+以下コマンドを実行することでビルドできます。
+
+````
+nuget restore UniTask.NetCore.sln
+msbuild /p:Configuration=Release UniTask.NetCore.sln
+````
+
+以下、原文
+-----------------------------------------------------------------------------------------------------
+
 UniTask
 ===
 [![GitHub Actions](https://github.com/Cysharp/UniTask/workflows/Build-Debug/badge.svg)](https://github.com/Cysharp/UniTask/actions) [![Releases](https://img.shields.io/github/release/Cysharp/UniTask.svg)](https://github.com/Cysharp/UniTask/releases) [![Readme_CN](https://img.shields.io/badge/UniTask-%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-red)](https://github.com/Cysharp/UniTask/blob/master/README_CN.md)
