@@ -16,7 +16,7 @@ namespace UniTask.Analyzer
             title: "UniTaskAnalyzer001: Must pass CancellationToken",
             messageFormat: "Must pass CancellationToken",
             category: "Usage",
-            defaultSeverity: DiagnosticSeverity.Error,
+            defaultSeverity: DiagnosticSeverity.Warning,
             isEnabledByDefault: true,
             description: "Pass CancellationToken or CancellationToken.None.");
 
